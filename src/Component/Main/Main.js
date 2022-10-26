@@ -14,7 +14,8 @@ const Main = () => {
     }
 
     useEffect( () => {
-        fetch('fakedata.json')
+        // fetch('fakedata.json')
+        fetch('http://localhost:5000/course')
         .then(res => res.json())
         .then(data => {
             setProducts(data);
