@@ -8,7 +8,7 @@ const Header = () => {
                 <img src="./logo.png" alt="" style={{ height: "100px" }} />
             </div> 
             <div>        
-            <h1 className='fw-bold'>GYM WorkOut</h1>
+            <h1 className='fw-bold'>GYM WorkOut Course</h1>
             </div> 
         </div>
     );
