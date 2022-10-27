@@ -1,14 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Component/Header/Header';
-import Main from './Component/Main/Main';
-import Qustions from './Component/Qustions/Qustions';
+import { router } from './Router/Router';
+import { RouterProvider } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-      <Header></Header>
-      <Main></Main>
-      <Qustions></Qustions>
+
+    <div className='App'>
+       <RouterProvider router={router}></RouterProvider>
+   
     </div>
   );
 }
