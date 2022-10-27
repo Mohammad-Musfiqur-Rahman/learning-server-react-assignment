@@ -41,7 +41,7 @@ const Main = () => {
                 </div>
 
                 <div className="col-lg-3 col-sm-12 bg-warning">
-                    <Sidebar secondTime={secondTime}></Sidebar>
+                    <Sidebar secondTime={secondTime} products={products}></Sidebar>
                 </div>           
             
             </div>

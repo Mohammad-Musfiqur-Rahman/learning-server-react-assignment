@@ -5,7 +5,7 @@ import Main from './Component/Main/Main';
 import Qustions from './Component/Qustions/Qustions';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Main></Main>
       <Qustions></Qustions>

@@ -16,7 +16,7 @@ const Product = (props) => {
                     <h5 className="card-title"> {title} </h5>
                     <p className="card-text">{about.slice(0, 150)}</p>
                 </div>
-                <small className="text-muted fs-5">Time required:{mints}s</small>
+                <small className="text-muted fs-5">Time required:{mints}days</small>
 
                 <div className="card-footer">
                     <button onClick={ () => secBtn(props.product.mints) } type="button" class="btn btn-success">Add to list</button>
