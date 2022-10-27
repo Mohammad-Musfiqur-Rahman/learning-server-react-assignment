@@ -6,7 +6,6 @@ import Questions from '../Qustions/Qustions'
 const Home = () => {
     return (
         <div>
-           <h1>outlet com</h1>
            <Header></Header>
             <Outlet></Outlet>
             <Questions></Questions>
