@@ -23,7 +23,7 @@ const Login = () => {
     
 
     return (
-        <div >
+        <div className='border border-5 border-primary'>
             <h1>login page</h1>
             <hr />
             <Form className='container'>
@@ -42,6 +42,7 @@ const Login = () => {
                     Log In
                 </Button>
             </Form>
+            <br />
             <button onClick={googleBtn}>Google Sign In</button>
         </div>
     );

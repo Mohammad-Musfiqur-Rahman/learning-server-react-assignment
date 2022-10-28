@@ -15,7 +15,7 @@ const Main = () => {
 
     useEffect( () => {
         // fetch('fakedata.json')
-        fetch('http://localhost:5000/course')
+        fetch('https://server-react-assignment.vercel.app/course')
         .then(res => res.json())
         .then(data => {
             setProducts(data);
