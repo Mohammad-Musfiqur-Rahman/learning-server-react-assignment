@@ -1,4 +1,5 @@
 import Nav from 'react-bootstrap/Nav';
+import ToggleButtonExample from '../../Button/Button';
 
 function Navbar() {
     return (
@@ -10,10 +11,8 @@ function Navbar() {
                 <Nav.Item as="li">
                     <Nav.Link href="/login">login</Nav.Link>
                 </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link eventKey="link-2">Dark or Light</Nav.Link>
-                </Nav.Item>
             </Nav>
+            <ToggleButtonExample></ToggleButtonExample>
         </div>
     );
 }
